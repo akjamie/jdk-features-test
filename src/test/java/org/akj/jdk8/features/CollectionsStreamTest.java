@@ -43,6 +43,7 @@ public class CollectionsStreamTest {
 
 	}
 
+	@SuppressWarnings("static-access")
 	@Test
 	public void test2() {
 		List<BigDecimal> list = new ArrayList<BigDecimal>();
