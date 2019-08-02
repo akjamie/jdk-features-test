@@ -14,15 +14,15 @@ class TryWithResourcesTest {
     final void test() throws IOException {
         InputStream ins = this.getClass().getClassLoader().getSystemResourceAsStream("input.txt");
         BufferedReader bufferedIns = new BufferedReader(new InputStreamReader(ins));
-//        try (bufferedIns) {
+        try (bufferedIns) {
 //            char[] cbuf = new char[1024];
-//            while (bufferedIns.read(cbuf) != -1) {
-//                System.out.println(cbuf);
-//            }
-//        }
-        String s = new String();;
-        while((s = bufferedIns.readLine()) != null){
-            System.out.println(s);
+////            while (bufferedIns.read(cbuf) != -1) {
+////                System.out.println(cbuf);
+////            }
+            String s = new String();
+            while ((s = bufferedIns.readLine()) != null) {
+                System.out.println(s);
+            }
         }
     }
 

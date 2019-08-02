@@ -1,17 +1,13 @@
 package org.akj.feign.service;
 
-import java.util.List;
-
 import org.akj.feign.service.model.Product;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+import org.mockito.Mockito;
 
-import feign.Feign;
-import feign.Request.Options;
-import feign.Retryer;
-import feign.jackson.JacksonDecoder;
-import feign.jackson.JacksonEncoder;
+import java.util.Arrays;
+import java.util.List;
 
 class ProductServiceTest {
 
@@ -19,9 +15,15 @@ class ProductServiceTest {
 
 	@BeforeEach
 	public void setup() {
-		productService = Feign.builder().options(new Options(10, 10)).retryer(new Retryer.Default(10, 10, 3))
-				.decoder(new JacksonDecoder()).encoder(new JacksonEncoder())
-				.target(ProductService.class, "http://127.0.0.1:9001");
+		Product product = new Product();
+		product.setName("xxx");
+
+		productService = Mockito.mock(ProductService.class);
+		Mockito.when(productService.findAllProducts()).thenReturn(Arrays.asList(product));
+
+//		productService = Feign.builder().options(new Options(10, 10)).retryer(new Retryer.Default(10, 10, 3))
+//				.decoder(new JacksonDecoder()).encoder(new JacksonEncoder())
+//				.target(ProductService.class, "http://127.0.0.1:9001");
 
 	}
 

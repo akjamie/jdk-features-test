@@ -10,7 +10,6 @@
         <junit.jupiter.version>5.3.2</junit.jupiter.version>
         <lombok.version>1.18.6</lombok.version>
         <hystrix.version>1.5.18</hystrix.version>
-        <maven.compiler.release>9</maven.compiler.release>
         <maven.compiler.source>1.9</maven.compiler.source>
         <maven.compiler.target>1.9</maven.compiler.target>
         <mockito.jupiter.version>2.28.2</mockito.jupiter.version>
@@ -18,6 +17,12 @@
         <eureka.version>1.9.8</eureka.version>
         <logback.version>1.2.3</logback.version>
         <jose.jwt.version>7.5.1</jose.jwt.version>
+        <!--<jedis.version>3.1.0</jedis.version>-->
+        <jedis.version>2.9.3</jedis.version>
+        <yaml.version>1.24</yaml.version>
+        <hikaricp.verison>3.3.1</hikaricp.verison>
+        <mysql.connector.version>8.0.11</mysql.connector.version>
+        <spring.data.redis.verison>2.1.9.RELEASE</spring.data.redis.verison>
     </properties>
 
     <dependencies>
@@ -26,53 +31,44 @@
             <artifactId>lombok</artifactId>
             <version>${lombok.version}</version>
         </dependency>
-
         <dependency>
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter-api</artifactId>
             <version>${junit.jupiter.version}</version>
             <scope>test</scope>
         </dependency>
-
         <dependency>
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter-engine</artifactId>
             <version>${junit.jupiter.version}</version>
             <scope>test</scope>
         </dependency>
-
         <dependency>
             <groupId>com.netflix.hystrix</groupId>
             <artifactId>hystrix-core</artifactId>
             <version>${hystrix.version}</version>
         </dependency>
-
         <dependency>
             <groupId>com.netflix.feign</groupId>
             <artifactId>feign-core</artifactId>
             <version>${feign.version}</version>
         </dependency>
-
         <dependency>
             <groupId>com.netflix.feign</groupId>
             <artifactId>feign-jackson</artifactId>
             <version>${feign.version}</version>
         </dependency>
-
-        <!-- https://mvnrepository.com/artifact/com.nimbusds/nimbus-jose-jwt -->
         <dependency>
             <groupId>com.nimbusds</groupId>
             <artifactId>nimbus-jose-jwt</artifactId>
             <version>${jose.jwt.version}</version>
         </dependency>
-
         <dependency>
             <groupId>ch.qos.logback</groupId>
             <artifactId>logback-classic</artifactId>
             <version>${logback.version}</version>
             <scope>test</scope>
         </dependency>
-
         <dependency>
             <groupId>org.mockito</groupId>
             <artifactId>mockito-junit-jupiter</artifactId>
@@ -80,16 +76,25 @@
             <scope>test</scope>
         </dependency>
         <dependency>
-            <groupId>com.nimbusds</groupId>
-            <artifactId>nimbus-jose-jwt</artifactId>
-            <version>7.5.1</version>
-            <scope>test</scope>
+            <groupId>redis.clients</groupId>
+            <artifactId>jedis</artifactId>
+            <version>${jedis.version}</version>
         </dependency>
         <dependency>
-            <groupId>com.nimbusds</groupId>
-            <artifactId>nimbus-jose-jwt</artifactId>
-            <version>7.5.1</version>
-            <scope>compile</scope>
+            <groupId>com.zaxxer</groupId>
+            <artifactId>HikariCP</artifactId>
+            <version>${hikaricp.verison}</version>
+        </dependency>
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>${mysql.connector.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.data</groupId>
+            <artifactId>spring-data-redis</artifactId>
+            <version>${spring.data.redis.verison}</version>
         </dependency>
 
     </dependencies>

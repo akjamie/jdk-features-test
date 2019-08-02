@@ -2,58 +2,48 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b9044218-6c86-4a51-934f-d8e55b74ffdc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_6_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_6_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_6_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_stephenc_jcip_jcip_annotations_1_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_archaius_archaius_core_0_4_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_feign_feign_core_8_18_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_feign_feign_jackson_8_18_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_hystrix_hystrix_core_1_5_18.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_nimbusds_nimbus_jose_jwt_7_5_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_configuration_commons_configuration_1_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_reactivex_rxjava_1_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_9_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_9_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hdrhistogram_HdrHistogram_2_1_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_3_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_3_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_3_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_3_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jvnet_animal_sniffer_annotation_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_2_28_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_junit_jupiter_2_28_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk-features-test.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/akj/jws/hmac/HMACJWSTokenGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/akj/jws/rsa/pkcs/RSAPKCSJWSTokenGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/akj/jwt/hmac/HMACJWTTokenGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/akj/jwt/rsa/pkcs/RSAPKCSJWTTokenGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/akj/jws/hmac/JWSTokenGeneratorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/akj/jws/rsa/pkcs/RSAPKCSJWSTokenGeneratorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/akj/jwt/hmac/HMACJWTTokenGeneratorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/akj/jwt/rsa/pkcs/RSAPKCSJWTTokenGeneratorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_protobuf_protobuf_java_2_6_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_3_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_4_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_1_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_keyvalue_2_1_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_redis_2_1_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_1_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_1_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_1_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_5_1_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_1_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_1_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_1_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_oxm_5_1_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_1_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__redis_clients_jedis_2_9_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/akj/jdbc/JDBCUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/akj/jdbc/repository/ProductRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/akj/redis/JedisUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/akj/redis/RedisConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/jdbc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/akj/jdbc/JDBCUtilTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/akj/jdbc/repository/ProductRepositoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/akj/jdk8/features/ClassLoaderTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/akj/jdk8/features/HashSetTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/akj/jdk8/features/LinkedListTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/akj/jdk8/features/classloader/MyClassLoader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/akj/jdk8/features/classloader/MyClassLoaderTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/akj/redis/JedisUtilTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/akj/redis/RedisConfigurationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/akj/redis/RedisConnectionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/jdbc.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jdk-features-test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/jdk-features-test.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/akj/feign/service/ProductServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/akj/feign/service/ProductServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/akj/jdk9/features/CollectionStaticConstructorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/akj/jdk9/features/CollectionStaticConstructorTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/akj/jdk9/features/TryWithResourcesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/akj/jdk9/features/TryWithResourcesTest.java" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/classes/" />
-    <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,167 +53,35 @@
   <component name="CodeInsightWorkspaceSettings">
     <option name="optimizeImportsOnTheFly" value="true" />
   </component>
+  <component name="CoverageViewManager">
+    <option name="myFlattenPackages" value="true" />
+    <option name="myAutoScrollToSource" value="true" />
+    <option name="myElementSize" value="99" />
+  </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
   <component name="FavoritesManager">
     <favorites_list name="jdk-features-test" />
   </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/akj/jws/hmac/HMACJWSTokenGenerator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="32" column="35" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="35" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/akj/jwt/hmac/HMACJWTTokenGenerator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-60">
-              <caret line="20" column="3" selection-start-line="20" selection-start-column="3" selection-end-line="21" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/org/akj/jwt/hmac/HMACJWTTokenGeneratorTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="56" column="53" selection-start-line="55" selection-start-column="7" selection-end-line="56" selection-end-column="53" />
-              <folding>
-                <element signature="e#366#382#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/org/akj/jws/hmac/JWSTokenGeneratorTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="103" selection-start-line="103" selection-end-line="103" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#749#764#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/akj/jws/rsa/pkcs/RSAPKCSJWSTokenGenerator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="29" selection-start-line="28" selection-end-line="29" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/akj/jwt/rsa/pkcs/RSAPKCSJWTTokenGenerator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="41" column="17" selection-start-line="41" selection-start-column="17" selection-end-line="41" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/com/nimbusds/nimbus-jose-jwt/7.5.1/nimbus-jose-jwt-7.5.1.jar!/com/nimbusds/jose/Payload.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-346">
-              <caret line="108" column="28" selection-start-line="108" selection-start-column="19" selection-end-line="108" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/org/akj/jws/rsa/pkcs/RSAPKCSJWSTokenGeneratorTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="35" column="23" selection-start-line="35" selection-start-column="23" selection-end-line="35" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/org/akj/jwt/rsa/pkcs/RSAPKCSJWTTokenGeneratorTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="47" column="45" lean-forward="true" selection-start-line="47" selection-start-column="45" selection-end-line="47" selection-end-column="45" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/com/nimbusds/nimbus-jose-jwt/7.5.1/nimbus-jose-jwt-7.5.1.jar!/com/nimbusds/jose/crypto/RSASSAVerifier.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-108">
-              <caret line="38" column="32" selection-start-line="38" selection-start-column="32" selection-end-line="38" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>jose.jwt.version</find>
-      <find>JWTTokenGenerator</find>
-    </findStrings>
-    <replaceStrings>
-      <replace />
-    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/main/java/org/akj/JWTTokenGenerator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/akj/jwt/JWTTokenGenerator.java" />
-        <option value="$PROJECT_DIR$/src/test/java/org/akj/jwt/JWTTokenGeneratorTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/org/akj/jws/JWTTokenGeneratorTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/akj/jws/JWTTokenGenerator.java" />
-        <option value="$PROJECT_DIR$/src/test/java/org/akj/jdk9/features/TryWithResourcesTest.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/org/akj/jws/hmac/JWTTokenGenerator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/akj/jws/RSAPKCSJWTTokenGenerator.java" />
-        <option value="$PROJECT_DIR$/src/test/java/org/akj/jws/hmac/JWTTokenGeneratorTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/akj/jws/hmac/HMACJWTTokenGenerator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/akj/jws/rsa/pkcs/RSAPKCSJWTTokenGenerator.java" />
-        <option value="$PROJECT_DIR$/src/test/java/org/akj/jws/rsa/pkcs/RSAPKCSJWTTokenGeneratorTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/akj/jws/hmac/HMACJWSTokenGenerator.java" />
-        <option value="$PROJECT_DIR$/src/test/java/org/akj/jws/rsa/pkcs/RSAPKCSJWSTokenGeneratorTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/org/akj/jws/hmac/JWSTokenGeneratorTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/org/akj/jwt/hmac/HMACJWTTokenGeneratorTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/org/akj/jwt/rsa/pkcs/RSAPKCSJWTTokenGenerator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/akj/jws/rsa/pkcs/RSAPKCSJWSTokenGenerator.java" />
-        <option value="$PROJECT_DIR$/src/test/java/org/akj/jwt/rsa/pkcs/RSAPKCSJWSTokenGenerator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/akj/jwt/hmac/HMACJWTTokenGenerator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/akj/jwt/rsa/pkcs/RSAPKCSJWTTokenGenerator.java" />
-        <option value="$PROJECT_DIR$/src/test/java/org/akj/jwt/rsa/pkcs/RSAPKCSJWTTokenGeneratorTest.java" />
-      </list>
-    </option>
+  <component name="HierarchyBrowserManager">
+    <option name="SORT_ALPHABETICALLY" value="true" />
+  </component>
+  <component name="JavaAutoRunManager">
+    <enabled-run-configurations>
+      <run-configuration type="JUnit" name="RedisConfigurationTest" />
+    </enabled-run-configurations>
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -232,255 +90,12 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="MavenProjectNavigator">
-    <treeState>
-      <expand>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="jdk-features-test" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="jdk-features-test" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="jdk-features-test" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-        </path>
-      </expand>
-      <select />
-    </treeState>
-  </component>
   <component name="MavenRunner">
     <option name="skipTests" value="true" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="10" />
-    <option name="y" value="20" />
-    <option name="width" value="1346" />
-    <option name="height" value="688" />
-  </component>
+  <component name="ProjectId" id="1Od3Se85RB86BBKxKotzcZAAhDF" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
-  </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="PackagesPane" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="jdk-features-test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jdk-features-test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jdk-features-test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jdk-features-test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jdk-features-test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jdk-features-test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jdk-features-test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jdk-features-test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jdk-features-test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jdk-features-test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jdk-features-test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jdk-features-test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="akj" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jdk-features-test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jdk-features-test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="akj" type="462c0819:PsiDirectoryNode" />
-              <item name="jws" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jdk-features-test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jdk-features-test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="akj" type="462c0819:PsiDirectoryNode" />
-              <item name="jws" type="462c0819:PsiDirectoryNode" />
-              <item name="hmac" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jdk-features-test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jdk-features-test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="akj" type="462c0819:PsiDirectoryNode" />
-              <item name="jws" type="462c0819:PsiDirectoryNode" />
-              <item name="rsa" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jdk-features-test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jdk-features-test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="akj" type="462c0819:PsiDirectoryNode" />
-              <item name="jws" type="462c0819:PsiDirectoryNode" />
-              <item name="rsa" type="462c0819:PsiDirectoryNode" />
-              <item name="pkcs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jdk-features-test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jdk-features-test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="akj" type="462c0819:PsiDirectoryNode" />
-              <item name="jwt" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jdk-features-test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jdk-features-test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="akj" type="462c0819:PsiDirectoryNode" />
-              <item name="jwt" type="462c0819:PsiDirectoryNode" />
-              <item name="hmac" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jdk-features-test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jdk-features-test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="akj" type="462c0819:PsiDirectoryNode" />
-              <item name="jwt" type="462c0819:PsiDirectoryNode" />
-              <item name="rsa" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jdk-features-test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jdk-features-test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="akj" type="462c0819:PsiDirectoryNode" />
-              <item name="jwt" type="462c0819:PsiDirectoryNode" />
-              <item name="rsa" type="462c0819:PsiDirectoryNode" />
-              <item name="pkcs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jdk-features-test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jdk-features-test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jdk-features-test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jdk-features-test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jdk-features-test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jdk-features-test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jdk-features-test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jdk-features-test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="akj" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jdk-features-test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jdk-features-test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="akj" type="462c0819:PsiDirectoryNode" />
-              <item name="jwt" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jdk-features-test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jdk-features-test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="akj" type="462c0819:PsiDirectoryNode" />
-              <item name="jwt" type="462c0819:PsiDirectoryNode" />
-              <item name="hmac" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jdk-features-test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jdk-features-test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="akj" type="462c0819:PsiDirectoryNode" />
-              <item name="jwt" type="462c0819:PsiDirectoryNode" />
-              <item name="rsa" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jdk-features-test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jdk-features-test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="akj" type="462c0819:PsiDirectoryNode" />
-              <item name="jwt" type="462c0819:PsiDirectoryNode" />
-              <item name="rsa" type="462c0819:PsiDirectoryNode" />
-              <item name="pkcs" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -494,28 +109,37 @@
     <property name="LombokPluginIS_MISSING_LOMBOK_CHECK_Enabled" value="true" />
     <property name="LombokPluginIS_VAL_Enabled" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
-    <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/org/akj/jws" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/test/java/org/akj/jdk8/features" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../mybatis-3" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="Lombok plugin" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="org.akj.jdk8.features.classloader" />
+      <recent name="org.akj.redis" />
+      <recent name="org.akj.jdbc.repository" />
+      <recent name="org.akj.jdbc" />
       <recent name="org.akj.jwt.hmac" />
-      <recent name="org.akj.jws.rsa.pkcs" />
-      <recent name="org.akj.jws.hmac" />
-      <recent name="org.akj.jwt" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.akj.jdk8.entity" />
+      <recent name="org.akj.redis" />
       <recent name="org.akj.jwt.rsa.pkcs" />
       <recent name="org.akj.jwt.hmac" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Workspaces-x\workspaces-20190705\jdk-features-test\src\test\resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -530,82 +154,65 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.RSAPKCSJWTTokenGeneratorTest.generateWithRSA256">
-    <configuration name="HMACJWTTokenGeneratorTest.generateWithHMC256Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.All in jdk-features-test (1)">
+    <configuration name="All in jdk-features-test (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jdk-features-test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All in jdk-features-test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jdk-features-test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductServiceTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="jdk-features-test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.akj.jwt.hmac.*" />
+          <option name="PATTERN" value="org.akj.feign.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.akj.jwt.hmac" />
-      <option name="MAIN_CLASS_NAME" value="org.akj.jwt.hmac.HMACJWTTokenGeneratorTest" />
-      <option name="METHOD_NAME" value="generateWithHMC256Test" />
+      <option name="PACKAGE_NAME" value="org.akj.feign.service" />
+      <option name="MAIN_CLASS_NAME" value="org.akj.feign.service.ProductServiceTest" />
+      <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RSAPKCSJWSTokenGeneratorTest.generate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RedisConfigurationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="jdk-features-test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.akj.jws.rsa.pkcs.*" />
+          <option name="PATTERN" value="org.akj.redis.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.akj.jws.rsa.pkcs" />
-      <option name="MAIN_CLASS_NAME" value="org.akj.jws.rsa.pkcs.RSAPKCSJWSTokenGeneratorTest" />
-      <option name="METHOD_NAME" value="generate" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="org.akj.redis" />
+      <option name="MAIN_CLASS_NAME" value="org.akj.redis.RedisConfigurationTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RSAPKCSJWSTokenGeneratorTest.generateWithRSA384" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RedisConfigurationTest.redisTemplate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="jdk-features-test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.akj.jws.rsa.pkcs.*" />
+          <option name="PATTERN" value="org.akj.redis.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.akj.jws.rsa.pkcs" />
-      <option name="MAIN_CLASS_NAME" value="org.akj.jws.rsa.pkcs.RSAPKCSJWSTokenGeneratorTest" />
-      <option name="METHOD_NAME" value="generateWithRSA384" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RSAPKCSJWSTokenGeneratorTest.generateWithRSA512" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="jdk-features-test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.akj.jws.rsa.pkcs.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.akj.jws.rsa.pkcs" />
-      <option name="MAIN_CLASS_NAME" value="org.akj.jws.rsa.pkcs.RSAPKCSJWSTokenGeneratorTest" />
-      <option name="METHOD_NAME" value="generateWithRSA512" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RSAPKCSJWTTokenGeneratorTest.generateWithRSA256" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="jdk-features-test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.akj.jwt.rsa.pkcs.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.akj.jwt.rsa.pkcs" />
-      <option name="MAIN_CLASS_NAME" value="org.akj.jwt.rsa.pkcs.RSAPKCSJWTTokenGeneratorTest" />
-      <option name="METHOD_NAME" value="generateWithRSA256" />
+      <option name="PACKAGE_NAME" value="org.akj.redis" />
+      <option name="MAIN_CLASS_NAME" value="org.akj.redis.RedisConfigurationTest" />
+      <option name="METHOD_NAME" value="redisTemplate" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -613,13 +220,16 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.RSAPKCSJWTTokenGeneratorTest.generateWithRSA256" />
-        <item itemvalue="JUnit.HMACJWTTokenGeneratorTest.generateWithHMC256Test" />
-        <item itemvalue="JUnit.RSAPKCSJWSTokenGeneratorTest.generateWithRSA512" />
-        <item itemvalue="JUnit.RSAPKCSJWSTokenGeneratorTest.generateWithRSA384" />
-        <item itemvalue="JUnit.RSAPKCSJWSTokenGeneratorTest.generate" />
+        <item itemvalue="JUnit.All in jdk-features-test (1)" />
+        <item itemvalue="JUnit.ProductServiceTest.test" />
+        <item itemvalue="JUnit.All in jdk-features-test" />
+        <item itemvalue="JUnit.RedisConfigurationTest" />
+        <item itemvalue="JUnit.RedisConfigurationTest.redisTemplate" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="StructureViewFactory">
+    <option name="ACTIVE_ACTIONS" value=",ALPHA_COMPARATOR" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -631,405 +241,93 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1563769049015</updated>
+      <workItem from="1564293672537" duration="314000" />
+      <workItem from="1564294066847" duration="4093000" />
+      <workItem from="1564312498090" duration="13947000" />
+      <workItem from="1564372327811" duration="7909000" />
+      <workItem from="1564541959917" duration="6401000" />
+      <workItem from="1564586681846" duration="18002000" />
+      <workItem from="1564653618335" duration="3840000" />
+      <workItem from="1564673233021" duration="2579000" />
     </task>
     <servers />
   </component>
-  <component name="TestHistory">
-    <history-entry file="RSAPKCSJWTTokenGeneratorTest_generate - 2019.07.22 at 16h 51m 29s.xml">
-      <configuration name="RSAPKCSJWTTokenGeneratorTest.generate" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RSAPKCSJWTTokenGeneratorTest_generate - 2019.07.22 at 16h 52m 38s.xml">
-      <configuration name="RSAPKCSJWTTokenGeneratorTest.generate" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RSAPKCSJWTTokenGeneratorTest_generate - 2019.07.22 at 16h 58m 59s.xml">
-      <configuration name="RSAPKCSJWTTokenGeneratorTest.generate" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RSAPKCSJWTTokenGeneratorTest_generate - 2019.07.22 at 17h 02m 13s.xml">
-      <configuration name="RSAPKCSJWTTokenGeneratorTest.generate" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RSAPKCSJWTTokenGeneratorTest_generateWithRSA384 - 2019.07.22 at 17h 07m 10s.xml">
-      <configuration name="RSAPKCSJWTTokenGeneratorTest.generateWithRSA384" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RSAPKCSJWTTokenGeneratorTest_generateWithRSA512 - 2019.07.22 at 17h 07m 43s.xml">
-      <configuration name="RSAPKCSJWTTokenGeneratorTest.generateWithRSA512" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="HMACJWTTokenGeneratorTest_generateWithHMC256Test - 2019.07.22 at 17h 42m 50s.xml">
-      <configuration name="HMACJWTTokenGeneratorTest.generateWithHMC256Test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="HMACJWTTokenGeneratorTest_generateWithHMC256Test - 2019.07.22 at 17h 45m 26s.xml">
-      <configuration name="HMACJWTTokenGeneratorTest.generateWithHMC256Test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RSAPKCSJWTTokenGeneratorTest_generateWithRSA256 - 2019.07.22 at 18h 00m 10s.xml">
-      <configuration name="RSAPKCSJWTTokenGeneratorTest.generateWithRSA256" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RSAPKCSJWTTokenGeneratorTest_generateWithRSA256 - 2019.07.22 at 18h 01m 53s.xml">
-      <configuration name="RSAPKCSJWTTokenGeneratorTest.generateWithRSA256" configurationId="JUnit" />
-    </history-entry>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
   </component>
-  <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
-    <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49918166" visible="true" weight="0.25340393" />
-      <window_info id="Designer" order="1" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Capture Tool" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Learn" order="5" />
-      <window_info id="Favorites" order="6" sideWeight="0.5008183" side_tool="true" weight="0.25340393" />
-      <window_info anchor="bottom" id="Messages" order="0" weight="0.32569557" />
-      <window_info anchor="bottom" id="Message" order="1" />
-      <window_info anchor="bottom" id="Find" order="2" />
-      <window_info active="true" anchor="bottom" id="Run" order="3" visible="true" weight="0.36006546" />
-      <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="10" weight="0.3289689" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.24962178" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.08850227" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Maven" order="4" weight="0.24656488" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Structure" order="8" sideWeight="0.5008183" side_tool="true" weight="0.2526475" />
-    </layout>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/redis/clients/jedis/3.1.0/jedis-3.1.0-sources.jar!/redis/clients/jedis/Jedis.java</url>
+          <line>148</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/akj/jdbc/repository/ProductRepository.java</url>
+          <line>52</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/2.1.9.RELEASE/spring-data-redis-2.1.9.RELEASE-sources.jar!/org/springframework/data/redis/core/RedisTemplate.java</url>
+          <line>567</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/org/akj/jdk8/features/LinkedListTest.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/org/akj/jdk8/features/LinkedListTest.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/org/akj/redis/RedisConfigurationTest.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/org/akj/redis/RedisConfigurationTest.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/org/akj/feign/service/ProductServiceTest.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/org/akj/feign/service/ProductServiceTest.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/org/akj/JWTGeneratorTest" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/org/akj/roundrobin/RoundRobinMockTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="16" column="15" selection-start-line="16" selection-start-column="15" selection-end-line="16" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/net/minidev/json-smart/2.3/json-smart-2.3-sources.jar!/net/minidev/json/JSONObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-262">
-          <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
-          <folding>
-            <element signature="e#1167#1168#0" expanded="true" />
-            <element signature="e#1181#1182#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-11.0.3/lib/src.zip!/java.base/java/util/Date.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="875" column="73" selection-start-line="875" selection-start-column="30" selection-end-line="875" selection-end-column="73" />
-          <folding>
-            <element signature="e#37393#37394#0" expanded="true" />
-            <element signature="e#37429#37430#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jdk-features-test.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/org/akj/jdk9/features/TryWithResourcesTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="e#221#255#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/org/akj/jdk9/features/CollectionStaticConstructorTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-95">
-          <caret line="12" column="34" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/nimbusds/nimbus-jose-jwt/7.5.1/nimbus-jose-jwt-7.5.1.jar!/com/nimbusds/jose/crypto/MACSigner.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="59" selection-start-line="59" selection-end-line="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.classpath">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-31">
-          <caret line="72" column="31" selection-start-line="72" selection-start-column="31" selection-end-line="72" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.project">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="5" column="15" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/junit/jupiter/junit-jupiter-api/5.3.2/junit-jupiter-api-5.3.2-sources.jar!/org/junit/jupiter/api/AssertTrue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-9">
-          <caret line="39" column="55" selection-start-line="39" selection-start-column="55" selection-end-line="39" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/junit/jupiter/junit-jupiter-api/5.3.2/junit-jupiter-api-5.3.2-sources.jar!/org/junit/jupiter/api/Assertions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-9">
-          <caret line="167" column="22" selection-start-line="167" selection-start-column="22" selection-end-line="167" selection-end-column="22" />
-          <folding>
-            <element signature="e#5695#5696#0" expanded="true" />
-            <element signature="e#5743#5744#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/nimbusds/nimbus-jose-jwt/7.5.1/nimbus-jose-jwt-7.5.1.jar!/com/nimbusds/jose/crypto/impl/MACProvider.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="25" column="32" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/nimbusds/nimbus-jose-jwt/7.5.1/nimbus-jose-jwt-7.5.1.jar!/com/nimbusds/jose/crypto/MACVerifier.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="61" column="42" selection-start-line="61" selection-start-column="39" selection-end-line="61" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/nimbusds/nimbus-jose-jwt/7.5.1/nimbus-jose-jwt-7.5.1.jar!/com/nimbusds/jose/crypto/impl/HMAC.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="45" column="28" selection-start-line="45" selection-start-column="8" selection-end-line="45" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/nimbusds/nimbus-jose-jwt/7.5.1/nimbus-jose-jwt-7.5.1.jar!/com/nimbusds/jose/JWSVerifier.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="7" column="40" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/nimbusds/nimbus-jose-jwt/7.5.1/nimbus-jose-jwt-7.5.1.jar!/com/nimbusds/jose/JWSObject.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="120" column="35" selection-start-line="120" selection-start-column="35" selection-end-line="120" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/nimbusds/nimbus-jose-jwt/7.5.1/nimbus-jose-jwt-7.5.1.jar!/com/nimbusds/jose/jwk/gen/RSAKeyGenerator.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
-          <folding>
-            <element signature="e#607#608#0" expanded="true" />
-            <element signature="e#640#641#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/nimbusds/nimbus-jose-jwt/7.5.1/nimbus-jose-jwt-7.5.1.jar!/com/nimbusds/jose/jwk/RSAKey.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4060">
-          <caret line="54" column="19" selection-start-line="54" selection-start-column="19" selection-end-line="54" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/junit/jupiter/junit-jupiter-api/5.3.2/junit-jupiter-api-5.3.2-sources.jar!/org/junit/jupiter/api/AssertionUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="53" selection-start-line="53" selection-end-line="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/nimbusds/nimbus-jose-jwt/7.5.1/nimbus-jose-jwt-7.5.1.jar!/com/nimbusds/jose/crypto/RSASSAVerifier.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-108">
-          <caret line="38" column="32" selection-start-line="38" selection-start-column="32" selection-end-line="38" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/akj/jws/hmac/HMACJWSTokenGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="32" column="35" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/nimbusds/nimbus-jose-jwt/7.5.1/nimbus-jose-jwt-7.5.1.jar!/com/nimbusds/jose/Payload.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-346">
-          <caret line="108" column="28" selection-start-line="108" selection-start-column="19" selection-end-line="108" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/org/akj/jwt/rsa/pkcs/RSAPKCSJWTTokenGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="14" column="37" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/org/akj/jwt/rsa/pkcs/RSAPKCSJWSTokenGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/akj/jws/rsa/pkcs/RSAPKCSJWSTokenGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="29" selection-start-line="28" selection-end-line="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/org/akj/jws/hmac/JWSTokenGeneratorTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="103" selection-start-line="103" selection-end-line="103" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#749#764#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/akj/jwt/rsa/pkcs/RSAPKCSJWTTokenGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="41" column="17" selection-start-line="41" selection-start-column="17" selection-end-line="41" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/org/akj/jws/rsa/pkcs/RSAPKCSJWSTokenGeneratorTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="35" column="23" selection-start-line="35" selection-start-column="23" selection-end-line="35" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/akj/jwt/hmac/HMACJWTTokenGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-60">
-          <caret line="20" column="3" selection-start-line="20" selection-start-column="3" selection-end-line="21" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/org/akj/jwt/hmac/HMACJWTTokenGeneratorTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="56" column="53" selection-start-line="55" selection-start-column="7" selection-end-line="56" selection-end-column="53" />
-          <folding>
-            <element signature="e#366#382#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/org/akj/jwt/rsa/pkcs/RSAPKCSJWTTokenGeneratorTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="47" column="45" lean-forward="true" selection-start-line="47" selection-start-column="45" selection-end-line="47" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>No facets are configured</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>jdk-features-test</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <last-edited>Maven: com.fasterxml.jackson.core:jackson-annotations:2.6.0</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/jdk_features_test$All_in_jdk_features_test__1_.ic" NAME="All in jdk-features-test (1) Coverage Results" MODIFIED="1564714467934" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/jdk_features_test$All_in_jdk_features_test.ic" NAME="All in jdk-features-test Coverage Results" MODIFIED="1564714040702" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/jdk_features_test$JedisUtilTest_testHashType.ic" NAME="JedisUtilTest.testHashType Coverage Results" MODIFIED="1564384094301" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>org.akj.redis.*</FILTER>
+    </SUITE>
   </component>
 </project>
