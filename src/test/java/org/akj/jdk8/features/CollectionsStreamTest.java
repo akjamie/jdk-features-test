@@ -27,7 +27,7 @@ public class CollectionsStreamTest {
 
 	@Test
 	public void test1() {
-		list.forEach((val) -> System.out.println(val));
+		list.forEach(val -> System.out.println(val));
 
 		System.out.println(list.stream().allMatch(n -> n > 50));
 
