@@ -1,16 +1,13 @@
 package org.akj.jdk8.features;
 
-import java.time.Instant;
-import java.time.LocalDate;
-import java.time.LocalDateTime;
-import java.time.ZoneId;
-import java.time.ZoneOffset;
+import org.junit.jupiter.api.Test;
+
+import java.text.SimpleDateFormat;
+import java.time.*;
 import java.time.format.DateTimeFormatter;
 import java.util.Calendar;
 import java.util.Date;
 import java.util.TimeZone;
-
-import org.junit.jupiter.api.Test;
 
 class DateTimeTest {
 
@@ -54,6 +51,19 @@ class DateTimeTest {
 		System.out.println(dt);
 
 		System.out.print(localDate.format(formatter));
+	}
+
+	@Test
+	public void test1(){
+		DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd'T'HH:mm:ss.SSS");
+
+		// convert to local date
+		TimeZone.setDefault(TimeZone.getTimeZone("GMT+0"));
+		Date time = Calendar.getInstance(TimeZone.getTimeZone("GMT+0")).getTime();
+
+		System.out.println(Calendar.getInstance(TimeZone.getTimeZone("GMT+0")).getTime());
+		System.out.println(Calendar.getInstance(TimeZone.getTimeZone("GMT+0")));
+		System.out.println(new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss.SSS").format(time));
 	}
 
 }

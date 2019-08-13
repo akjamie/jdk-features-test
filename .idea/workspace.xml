@@ -2,47 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b9044218-6c86-4a51-934f-d8e55b74ffdc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_protobuf_protobuf_java_2_6_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_3_3_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_11.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_4_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_1_9_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_keyvalue_2_1_9_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_redis_2_1_9_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_1_8_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_1_8_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_1_8_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_5_1_8_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_1_8_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_1_8_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_1_8_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_oxm_5_1_8_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_1_8_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__redis_clients_jedis_2_9_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/akj/jdbc/JDBCUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/akj/jdbc/repository/ProductRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/akj/redis/JedisUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/akj/redis/RedisConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/jdbc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/akj/jdbc/JDBCUtilTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/akj/jdbc/repository/ProductRepositoryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/akj/jdk8/features/ClassLoaderTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/akj/jdk8/features/HashSetTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/akj/jdk8/features/LinkedListTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/akj/jdk8/features/classloader/MyClassLoader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/akj/jdk8/features/classloader/MyClassLoaderTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/akj/redis/JedisUtilTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/akj/redis/RedisConfigurationTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/akj/redis/RedisConnectionTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/jdbc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/akj/algorithm/sort/SortUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/akj/multithread/OutOfStackErrorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/akj/multithread/ThreadTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/akj/multithread/executors/FutureTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jdk-features-test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/jdk-features-test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/akj/feign/service/ProductServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/akj/feign/service/ProductServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/akj/jdk9/features/CollectionStaticConstructorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/akj/jdk9/features/CollectionStaticConstructorTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/akj/jdk9/features/TryWithResourcesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/akj/jdk9/features/TryWithResourcesTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/akj/jdk8/features/DateTimeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/akj/jdk8/features/DateTimeTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -78,11 +44,6 @@
   <component name="HierarchyBrowserManager">
     <option name="SORT_ALPHABETICALLY" value="true" />
   </component>
-  <component name="JavaAutoRunManager">
-    <enabled-run-configurations>
-      <run-configuration type="JUnit" name="RedisConfigurationTest" />
-    </enabled-run-configurations>
-  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -114,12 +75,18 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="extract.method.default.visibility" value="private" />
-    <property name="last_directory_selection" value="$PROJECT_DIR$/src/test/java/org/akj/jdk8/features" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../mybatis-3" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/org/akj" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -129,14 +96,17 @@
       <recent name="org.akj.jdbc" />
       <recent name="org.akj.jwt.hmac" />
     </key>
+    <key name="OPEN_URL_DIALOG">
+      <recent name="https://github.com/cloud-poc/redis-test" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="org.akj.jdk8.entity" />
       <recent name="org.akj.redis" />
       <recent name="org.akj.jwt.rsa.pkcs" />
       <recent name="org.akj.jwt.hmac" />
-    </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Workspaces-x\workspaces-20190705\jdk-features-test\src\test\resources" />
@@ -154,77 +124,102 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.All in jdk-features-test (1)">
-    <configuration name="All in jdk-features-test (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="jdk-features-test" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="All in jdk-features-test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="jdk-features-test" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ProductServiceTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.OutOfStackErrorTest.test2">
+    <configuration name="DateTimeTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="jdk-features-test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.akj.feign.service.*" />
+          <option name="PATTERN" value="org.akj.jdk8.features.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.akj.feign.service" />
-      <option name="MAIN_CLASS_NAME" value="org.akj.feign.service.ProductServiceTest" />
+      <option name="PACKAGE_NAME" value="org.akj.jdk8.features" />
+      <option name="MAIN_CLASS_NAME" value="org.akj.jdk8.features.DateTimeTest" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OutOfStackErrorTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jdk-features-test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.akj.multithread.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.akj.multithread" />
+      <option name="MAIN_CLASS_NAME" value="org.akj.multithread.OutOfStackErrorTest" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RedisConfigurationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="OutOfStackErrorTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="jdk-features-test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.akj.redis.*" />
+          <option name="PATTERN" value="org.akj.multithread.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.akj.redis" />
-      <option name="MAIN_CLASS_NAME" value="org.akj.redis.RedisConfigurationTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="org.akj.multithread" />
+      <option name="MAIN_CLASS_NAME" value="org.akj.multithread.OutOfStackErrorTest" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea -Xmx50m -Xms50m" />
+      <option name="PARAMETERS" value="" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RedisConfigurationTest.redisTemplate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="OutOfStackErrorTest.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="jdk-features-test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.akj.redis.*" />
+          <option name="PATTERN" value="org.akj.multithread.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.akj.redis" />
-      <option name="MAIN_CLASS_NAME" value="org.akj.redis.RedisConfigurationTest" />
-      <option name="METHOD_NAME" value="redisTemplate" />
+      <option name="PACKAGE_NAME" value="org.akj.multithread" />
+      <option name="MAIN_CLASS_NAME" value="org.akj.multithread.OutOfStackErrorTest" />
+      <option name="METHOD_NAME" value="test2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ThreadTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jdk-features-test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.akj.multithread.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.akj.multithread" />
+      <option name="MAIN_CLASS_NAME" value="org.akj.multithread.ThreadTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.DateTimeTest.test1" />
+      <item itemvalue="JUnit.OutOfStackErrorTest.test" />
+      <item itemvalue="JUnit.OutOfStackErrorTest.test1" />
+      <item itemvalue="JUnit.ThreadTest" />
+      <item itemvalue="JUnit.OutOfStackErrorTest.test2" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.All in jdk-features-test (1)" />
-        <item itemvalue="JUnit.ProductServiceTest.test" />
-        <item itemvalue="JUnit.All in jdk-features-test" />
-        <item itemvalue="JUnit.RedisConfigurationTest" />
-        <item itemvalue="JUnit.RedisConfigurationTest.redisTemplate" />
+        <item itemvalue="JUnit.OutOfStackErrorTest.test2" />
+        <item itemvalue="JUnit.OutOfStackErrorTest.test1" />
+        <item itemvalue="JUnit.OutOfStackErrorTest.test" />
+        <item itemvalue="JUnit.ThreadTest" />
+        <item itemvalue="JUnit.DateTimeTest.test1" />
       </list>
     </recent_temporary>
   </component>
@@ -249,6 +244,12 @@
       <workItem from="1564586681846" duration="18002000" />
       <workItem from="1564653618335" duration="3840000" />
       <workItem from="1564673233021" duration="2579000" />
+      <workItem from="1565052360403" duration="836000" />
+      <workItem from="1565053287026" duration="1617000" />
+      <workItem from="1565075458159" duration="747000" />
+      <workItem from="1565165839854" duration="1047000" />
+      <workItem from="1565248859324" duration="308000" />
+      <workItem from="1565335558837" duration="13640000" />
     </task>
     <servers />
   </component>
@@ -316,16 +317,26 @@
           <line>21</line>
           <option name="timeStamp" value="13" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar:///Library/Java/JavaVirtualMachines/openjdk-11.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/util/Calendar.java</url>
+          <line>1642</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="JUnit">
+        <watch expression="Calendar.getInstance(TimeZone.getTimeZone(&quot;GMT+0&quot;))" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/jdk_features_test$All_in_jdk_features_test__1_.ic" NAME="All in jdk-features-test (1) Coverage Results" MODIFIED="1564714467934" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/jdk_features_test$All_in_jdk_features_test.ic" NAME="All in jdk-features-test Coverage Results" MODIFIED="1564714040702" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/jdk_features_test$All_in_jdk_features_test__1_.ic" NAME="All in jdk-features-test (1) Coverage Results" MODIFIED="1564714467934" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/jdk_features_test$JedisUtilTest_testHashType.ic" NAME="JedisUtilTest.testHashType Coverage Results" MODIFIED="1564384094301" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>org.akj.redis.*</FILTER>
     </SUITE>
