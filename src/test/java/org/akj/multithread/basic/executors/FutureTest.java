@@ -1,4 +1,4 @@
-package org.akj.multithread.executors;
+package org.akj.multithread.basic.executors;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;

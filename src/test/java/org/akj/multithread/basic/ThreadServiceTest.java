@@ -1,4 +1,4 @@
-package org.akj.multithread;
+package org.akj.multithread.basic;
 
 class ThreadServiceTest {
     public static void main(String[] args) {

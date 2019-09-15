@@ -1,4 +1,4 @@
-package org.akj.multithread;
+package org.akj.multithread.basic;
 
 import java.util.stream.IntStream;
 

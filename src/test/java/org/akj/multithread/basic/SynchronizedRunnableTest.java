@@ -1,8 +1,4 @@
-package org.akj.multithread;
-
-import org.junit.jupiter.api.Test;
-
-import static org.junit.jupiter.api.Assertions.*;
+package org.akj.multithread.basic;
 
 class SynchronizedRunnableTest {
 

@@ -1,4 +1,4 @@
-package org.akj.multithread;
+package org.akj.multithread.basic;
 
 public class SynchronizedRunnable implements Runnable {
     private static final int MAX = 500;

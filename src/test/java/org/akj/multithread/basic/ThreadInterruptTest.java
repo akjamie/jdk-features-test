@@ -1,4 +1,4 @@
-package org.akj.multithread;
+package org.akj.multithread.basic;
 
 public class ThreadInterruptTest {
     private static final Object MONITOR = new Object();
