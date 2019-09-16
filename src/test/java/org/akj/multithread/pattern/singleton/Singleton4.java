@@ -1,8 +1,8 @@
 package org.akj.multithread.pattern.singleton;
 
 /**
- * design pattern - singleton - Lazy mode(may get null instance, object allocated in heap but not completed
- * initialization)
+ * design pattern - singleton - Lazy mode(may get null value for some field/attribute, object allocated in heap but not
+ * completed initialization)
  *
  * @Author Jamie Zhang
  */
