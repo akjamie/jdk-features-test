@@ -11,7 +11,7 @@ Java中的原子操作包括：
 可见性是指当多个线程访问同一个变量时，一个线程修改了这个变量的值，其他线程能够立即看得到修改的值。  
 
 Thread-1            &nbsp;|&nbsp;          Thread-2  
-                    &nbsp;|&nbsp;
+                    &nbsp;&nbsp;  
 int i = 0;          &nbsp;|&nbsp;          int j = i;  
                     &nbsp;&nbsp;  
 i = 10;             &nbsp;|&nbsp;  
