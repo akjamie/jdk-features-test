@@ -35,6 +35,7 @@
         <hikaricp.verison>3.3.1</hikaricp.verison>
         <mysql.connector.version>8.0.11</mysql.connector.version>
         <spring.data.redis.verison>2.1.9.RELEASE</spring.data.redis.verison>
+        <quartz.version>2.3.1</quartz.version>
     </properties>
 
     <dependencies>
@@ -107,6 +108,16 @@
             <groupId>org.springframework.data</groupId>
             <artifactId>spring-data-redis</artifactId>
             <version>${spring.data.redis.verison}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.quartz-scheduler</groupId>
+            <artifactId>quartz</artifactId>
+            <version>${quartz.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.quartz-scheduler</groupId>
+            <artifactId>quartz-jobs</artifactId>
+            <version>2.3.1</version>
         </dependency>
 
     </dependencies>

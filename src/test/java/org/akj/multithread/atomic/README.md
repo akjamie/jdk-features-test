@@ -24,3 +24,12 @@ public boolean compareAndSet(V   expectedReference,
          casPair(current, Pair.of(newReference, newStamp)));
 }
 ```
+
+AtomicxxxFieldUpdater 使用场景：  
+1> 想要类的属性具有原子性  
+    - 必须为volatile修饰  
+    - 非private，protected(如果是当前类则可以为protected)  
+    - 类型必须一致  
+    - 其他  
+2> 不想使用锁(自定义锁或者synchronized)  
+3> 大量需要原子性修饰的对象
