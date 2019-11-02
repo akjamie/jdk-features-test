@@ -28,7 +28,7 @@
         <feign.version>8.18.0</feign.version>
         <eureka.version>1.9.8</eureka.version>
         <logback.version>1.2.3</logback.version>
-        <jose.jwt.version>7.5.1</jose.jwt.version>
+        <jose.jwt.version>7.9</jose.jwt.version>
         <!--<jedis.version>3.1.0</jedis.version>-->
         <jedis.version>2.9.3</jedis.version>
         <yaml.version>1.24</yaml.version>
