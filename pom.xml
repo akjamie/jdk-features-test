@@ -33,7 +33,7 @@
         <jedis.version>2.9.3</jedis.version>
         <yaml.version>1.24</yaml.version>
         <hikaricp.verison>3.3.1</hikaricp.verison>
-        <mysql.connector.version>8.0.11</mysql.connector.version>
+        <mysql.connector.version>8.0.16</mysql.connector.version>
         <spring.data.redis.verison>2.1.9.RELEASE</spring.data.redis.verison>
         <quartz.version>2.3.1</quartz.version>
         <mongo.driver.version>3.12.1</mongo.driver.version>
