@@ -32,10 +32,10 @@ public class MongoClientTest {
 
     private MongoClient client;
 
-//    private static final String url = "mongodb://localhost:28017,localhost:28018," +
-//            "localhost:28019/test?replicaSet=mongo-rs&slaveOk=true&readPreference=secondaryPreferred";
+    private static final String url = "mongodb://54.241.206.28:27017,54.241.206.28:27018," +
+            "/test?replicaSet=rs0&slaveOk=true&readPreference=secondaryPreferred";
 
-    private static final String url = "mongodb://localhost:27017";
+    //private static final String url = "mongodb://localhost:27017";
 
     private static final String DATABASE = "test";
 
