@@ -23,6 +23,12 @@ public class CheckSumUtil {
         //2.generate hash's bytes
         byte[] hashBytes = digest.digest();
 
-        return new String(hashBytes,"UTF-8");
+        //3.convert to hexadecimal format
+        StringBuilder builder = new StringBuilder();
+        for(int i = 0; i < hashBytes.length; i++){
+            builder.append(Integer.toString((hashBytes[i] & 0xff) + 0x100, 16).substring(1));
+        }
+
+        return builder.toString();
     }
 }
