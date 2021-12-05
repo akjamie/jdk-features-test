@@ -1,5 +1,6 @@
 package org.akj.utils;
 
+import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.codec.digest.DigestUtils;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
@@ -10,7 +11,9 @@ import java.io.IOException;
 import java.net.URISyntaxException;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
+import java.util.Optional;
 
+@Slf4j
 class CheckSumUtilTest {
 
 
@@ -83,6 +86,20 @@ class CheckSumUtilTest {
         String s = DigestUtils.sha512Hex(new FileInputStream(file));
 
         Assertions.assertEquals(s,checksum);
+    }
+
+    @Test
+    public void checkSumforLargeFile() throws IOException, NoSuchAlgorithmException {
+        long currrent = System.currentTimeMillis();
+        // file size around 2.4GB
+        File file = new File("/Users/jamie/test-01.mkv");
+        //Get the checksum
+        String s = DigestUtils.sha512Hex(new FileInputStream(file));
+//        String s = DigestUtils.sha256Hex(new FileInputStream(file));
+//        String s = DigestUtils.sha1Hex(new FileInputStream(file));
+
+        log.info(s);
+        log.info("file size: {} mb, time wasted: {} seconds", Optional.ofNullable(file.length()).orElse(0l)/1024/1024,((System.currentTimeMillis() - currrent) / 1000));
     }
 
 }

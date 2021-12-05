@@ -1,5 +1,8 @@
 package org.akj.jdk8.features;
 
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
+
 import java.math.BigDecimal;
 import java.math.RoundingMode;
 import java.util.ArrayList;
@@ -8,9 +11,6 @@ import java.util.DoubleSummaryStatistics;
 import java.util.List;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
-
-import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.Test;
 
 public class CollectionsStreamTest {
 
@@ -48,7 +48,7 @@ public class CollectionsStreamTest {
 	public void test2() {
 		List<BigDecimal> list = new ArrayList<BigDecimal>();
 		for (int i = 0; i < 100000; i++) {
-			list.add(new BigDecimal(2).valueOf(Math.random() * 100000).setScale(2, RoundingMode.HALF_UP));
+			list.add(new BigDecimal(2).valueOf(Math.random() * 1000000).setScale(2, RoundingMode.HALF_UP));
 			// list.add(new BigDecimal(2).valueOf(1).setScale(2, RoundingMode.HALF_UP));
 		}
 

@@ -8,17 +8,14 @@ import java.io.InputStream;
 import java.io.InputStreamReader;
 
 class TryWithResourcesTest {
+    volatile String flag;
 
     @SuppressWarnings("static-access")
     @Test
     final void test() throws IOException {
         InputStream ins = this.getClass().getClassLoader().getSystemResourceAsStream("input.txt");
         BufferedReader bufferedIns = new BufferedReader(new InputStreamReader(ins));
-        try (bufferedIns) {
-//            char[] cbuf = new char[1024];
-////            while (bufferedIns.read(cbuf) != -1) {
-////                System.out.println(cbuf);
-////            }
+        try (ins; bufferedIns) {
             String s = new String();
             while ((s = bufferedIns.readLine()) != null) {
                 System.out.println(s);
