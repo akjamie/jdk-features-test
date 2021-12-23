@@ -9,5 +9,6 @@ public class NewStringTest {
 
         System.out.println(testMsg.trim());
         System.out.println(testMsg.strip());
+        System.out.println(testMsg.isEmpty());
     }
 }

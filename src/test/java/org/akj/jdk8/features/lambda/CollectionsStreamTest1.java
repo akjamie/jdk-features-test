@@ -1,4 +1,4 @@
-package org.akj.jdk8.features;
+package org.akj.jdk8.features.lambda;
 
 import org.akj.jdk8.entity.Person;
 import org.junit.jupiter.api.BeforeEach;

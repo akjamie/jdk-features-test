@@ -1,13 +1,13 @@
-package org.akj.jdk8.features;
+package org.akj.jdk8.features.lambda;
+
+import org.akj.jdk8.entity.Version;
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Test;
 
 import java.util.UUID;
 import java.util.function.Consumer;
 import java.util.function.Predicate;
 import java.util.function.Supplier;
-
-import org.akj.jdk8.entity.Version;
-import org.junit.jupiter.api.Assertions;
-import org.junit.jupiter.api.Test;
 
 class FunctionTest {
 	@Test

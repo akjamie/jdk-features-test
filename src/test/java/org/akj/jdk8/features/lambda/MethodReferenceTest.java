@@ -1,4 +1,4 @@
-package org.akj.jdk8.features;
+package org.akj.jdk8.features.lambda;
 
 import lombok.extern.slf4j.Slf4j;
 import org.junit.jupiter.api.Test;

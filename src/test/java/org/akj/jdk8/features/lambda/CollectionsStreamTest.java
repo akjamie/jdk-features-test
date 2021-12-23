@@ -1,4 +1,4 @@
-package org.akj.jdk8.features;
+package org.akj.jdk8.features.lambda;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
