@@ -1,5 +1,7 @@
 package org.akj.multithread.advance;
 
+import lombok.SneakyThrows;
+import lombok.extern.slf4j.Slf4j;
 import org.junit.jupiter.api.RepeatedTest;
 import org.junit.jupiter.api.Test;
 
@@ -10,7 +12,8 @@ import java.util.concurrent.*;
 import java.util.concurrent.atomic.AtomicInteger;
 import java.util.stream.IntStream;
 
-public class CompetableFutureTest {
+@Slf4j
+public class CompletableFutureTest {
 
     @Test
     public void test() {
@@ -32,7 +35,7 @@ public class CompetableFutureTest {
     @RepeatedTest(5)
     public void test1() {
         List<Integer> results = new ArrayList<>(20);
-        ThreadPoolExecutor executor = new ThreadPoolExecutor(2, 8, 30, TimeUnit.SECONDS, new LinkedBlockingQueue<>());
+        ThreadPoolExecutor executor = new ThreadPoolExecutor(2, 8, 30, TimeUnit.SECONDS, new LinkedBlockingQueue<>(5));
         executor.prestartAllCoreThreads();
         Random generator = new Random(1000);
 
@@ -126,4 +129,43 @@ public class CompetableFutureTest {
         results.stream().forEach(System.out::println);
         executor.shutdown();
     }
+
+    @SneakyThrows
+    @Test
+    public void test5(){
+        CompletableFuture<String> completableFuture = new CompletableFuture<>();
+        new Thread(() -> {
+            try {
+                log.info("{} start to process.", Thread.currentThread().getName());
+                TimeUnit.SECONDS.sleep(3);
+                log.info("{} is executing.", Thread.currentThread().getName());
+                completableFuture.complete("success.");
+                log.info("{} process finished.", Thread.currentThread().getName());
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+        }).start();
+
+        log.info("{} - handle result: {}", Thread.currentThread().getName(), completableFuture.get());
+    }
+
+    @SneakyThrows
+    @Test
+    public void test6(){
+        CompletableFuture<Void> future = CompletableFuture.runAsync(() -> {
+            try {
+                log.info("{} start to process.", Thread.currentThread().getName());
+                TimeUnit.SECONDS.sleep(3);
+                log.info("{} is executing.", Thread.currentThread().getName());
+                log.info("{} process finished.", Thread.currentThread().getName());
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+        });
+
+        future.get();
+
+        log.info("{} - DONE", Thread.currentThread().getName());
+    }
+
 }
