@@ -14,7 +14,7 @@
         <mockito.jupiter.version>4.8.0</mockito.jupiter.version>
         <feign.version>8.18.0</feign.version>
         <eureka.version>1.9.8</eureka.version>
-        <logback.version>1.2.3</logback.version>
+        <logback.version>1.3.12</logback.version>
         <jose.jwt.version>7.9</jose.jwt.version>
         <!--<jedis.version>3.1.0</jedis.version>-->
         <jedis.version>4.3.0</jedis.version>
